@@ -70,7 +70,6 @@
           numbersCheckbox.checked = true;
           symbolsCheckbox.checked = true;
       } else {
-          // Assuming customRadio is checked by default
           const customLength = parseInt(lengthField.value);
           lengthDisplay.textContent = `Comprimento: ${customLength}`;
           uppercaseCheckbox.checked = true;
